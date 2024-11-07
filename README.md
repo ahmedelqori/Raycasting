@@ -25,17 +25,22 @@ The purpose of this project is to explore and implement the raycasting technique
 
 ## installation
 
+### For Linux
+
+#### Mandantory
 ```
-   git clone https://github.com/ahmedelqori/raycasting.git
+make
+./cub3D ./maps/mandatory/a.cub
 ```
+#### Bonus
 ```
-   cd raycasting
+make bonus
+./cub3D_bonus ./maps/bonus/a.cub
 ```
+#### With Docker (Still Dosnt Work ..)
+
 ```
-   make
-```
-```
-   ./cub3D ./maps/mandatory/a.cub
+docker build -t raycasting .
 ```
 ## Map Structure
 
